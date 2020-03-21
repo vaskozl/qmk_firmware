@@ -14,7 +14,7 @@ enum custom_keycodes {
 #define KC_ KC_TRNS
 #define _______ KC_TRNS
 
-#define KC_FN   OSL(_FUNCTION)
+#define KC_FN   MO(_FUNCTION)
 #define KC_RST  RESET
 #define KC_DBUG DEBUG
 
@@ -41,7 +41,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //|----+----+----+----+----+----|              |----+----+----+----+----+----|
       TAB, Q  , W  , F  , P  , G,                  J  , L  , U  ,  Y ,SCLN,ENT , 
   //|----+----+----+----+----+----|              |----+----+----+----+----+----|
-     LSST, A  , R  , S  , T  , D  ,                H  , N  , E  , I  ,  O ,RSST,
+     LSFT, A  , R  , S  , T  , D  ,                H  , N  , E  , I  ,  O ,RSFT,
   //|----+----+----+----+----+----+----.    ,----|----+----+----+----+----+----|
      BSLS, Z  , X  , C  , V  , B  ,CAPS,     APP , K  , M  ,COMM,DOT ,SLSH,QUOT,
   //`----+----+----+--+-+----+----+----/    \----+----+----+----+----+----+----'
